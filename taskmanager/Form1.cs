@@ -44,9 +44,6 @@ namespace taskmanager
                     statusList.Text = tasksGrid.Rows[selectedIndex].Cells["status"].Value.ToString();
                 }
             }
-            
-            
-            
         }
 
         private void editBtn_Click(object sender, EventArgs e)
@@ -60,11 +57,15 @@ namespace taskmanager
         private void deleteBtn_Click(object sender, EventArgs e)
         {
             if (tasksGrid.SelectedRows.Count > 0)
-            { 
-                int selectedIndex = tasksGrid.SelectedRows[0].Index;
-                tasksGrid.Rows.RemoveAt(selectedIndex);
-            }
-            
+            {
+                DialogResult confirmDelete = MessageBox.Show("Biztosan törölni szeretnéd?", "", MessageBoxButtons.OKCancel);
+                if (confirmDelete == DialogResult.OK)
+                {
+                    int selectedIndex = tasksGrid.SelectedRows[0].Index;
+                    tasksGrid.Rows.RemoveAt(selectedIndex);
+
+                }
+            }   
         }
     }
 

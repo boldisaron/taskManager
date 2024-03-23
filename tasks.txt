@@ -1,0 +1,32 @@
+Task Manager
+
+Create a basic Task Manager application where users can add, edit, and delete tasks. Each task should have a name, description, and a status (such as "Pending", "In Progress", "Completed", etc.). Users should be able to:
+
+Add a new task by providing a name, description, and selecting a status from a dropdown menu.
+View a list of all tasks with their details.
+Edit an existing task's name, description, and status.
+Delete a task.
+Mark a task as completed.
+Here's a basic outline of the steps you can follow to implement this project:
+
+Create a new WinForms project in Visual Studio.
+Design the user interface:
+Add labels, textboxes, dropdown menus, and buttons for adding, editing, deleting, and marking tasks.
+Use a DataGridView to display the list of tasks.
+Create a Task class to represent each task with properties like name, description, and status.
+
+Implement functionality:
+Create methods to add, edit, delete, and mark tasks as completed.
+Use event handlers for button clicks to trigger these methods.
+Handle user interactions:
+When the user selects a task from the DataGridView, display its details in the appropriate controls (textboxes, dropdowns).
+Allow the user to edit these details and update the task accordingly.
+Ensure validation:
+Validate user input to ensure that tasks have valid names and descriptions.
+Confirm with the user before deleting a task.
+Test the application thoroughly to ensure all functionalities work as expected.
+This project provides a good opportunity to practice basic WinForms development skills, including designing user interfaces, handling events, working with data, and implementing CRUD (Create, Read, Update, Delete) operations. Good luck with your project!
+
+
+
+

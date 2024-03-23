@@ -8,3 +8,14 @@ C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\taskmanager\taskman
 C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\taskmanager\taskmanager\obj\Debug\taskmanager.csproj.CoreCompileInputs.cache
 C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\taskmanager\taskmanager\obj\Debug\taskmanager.exe
 C:\Users\BoldisAron\Desktop\KA_12D.github.io\Boldis Áron\c#\taskmanager\taskmanager\obj\Debug\taskmanager.pdb
+C:\Users\boldi\Desktop\junk\c#\taskManager\taskmanager\bin\Debug\taskmanager.exe.config
+C:\Users\boldi\Desktop\junk\c#\taskManager\taskmanager\bin\Debug\taskmanager.exe
+C:\Users\boldi\Desktop\junk\c#\taskManager\taskmanager\bin\Debug\taskmanager.pdb
+C:\Users\boldi\Desktop\junk\c#\taskManager\taskmanager\obj\Debug\taskmanager.csproj.AssemblyReference.cache
+C:\Users\boldi\Desktop\junk\c#\taskManager\taskmanager\obj\Debug\taskmanager.csproj.SuggestedBindingRedirects.cache
+C:\Users\boldi\Desktop\junk\c#\taskManager\taskmanager\obj\Debug\taskmanager.Form1.resources
+C:\Users\boldi\Desktop\junk\c#\taskManager\taskmanager\obj\Debug\taskmanager.Properties.Resources.resources
+C:\Users\boldi\Desktop\junk\c#\taskManager\taskmanager\obj\Debug\taskmanager.csproj.GenerateResource.cache
+C:\Users\boldi\Desktop\junk\c#\taskManager\taskmanager\obj\Debug\taskmanager.csproj.CoreCompileInputs.cache
+C:\Users\boldi\Desktop\junk\c#\taskManager\taskmanager\obj\Debug\taskmanager.exe
+C:\Users\boldi\Desktop\junk\c#\taskManager\taskmanager\obj\Debug\taskmanager.pdb

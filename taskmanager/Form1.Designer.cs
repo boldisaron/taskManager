@@ -52,16 +52,16 @@
             this.taskName,
             this.description,
             this.status});
-            this.tasksGrid.Location = new System.Drawing.Point(264, 9);
+            this.tasksGrid.Location = new System.Drawing.Point(262, 9);
             this.tasksGrid.Name = "tasksGrid";
             this.tasksGrid.ReadOnly = true;
-            this.tasksGrid.Size = new System.Drawing.Size(370, 251);
+            this.tasksGrid.Size = new System.Drawing.Size(436, 370);
             this.tasksGrid.TabIndex = 0;
             this.tasksGrid.SelectionChanged += new System.EventHandler(this.DataGridView_SelectionChanged);
             // 
             // taskNameTxtBox
             // 
-            this.taskNameTxtBox.Location = new System.Drawing.Point(80, 9);
+            this.taskNameTxtBox.Location = new System.Drawing.Point(90, 9);
             this.taskNameTxtBox.Name = "taskNameTxtBox";
             this.taskNameTxtBox.Size = new System.Drawing.Size(166, 20);
             this.taskNameTxtBox.TabIndex = 1;
@@ -69,7 +69,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 12);
+            this.label1.Location = new System.Drawing.Point(22, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(62, 13);
             this.label1.TabIndex = 2;
@@ -77,7 +77,7 @@
             // 
             // descTxtBox
             // 
-            this.descTxtBox.Location = new System.Drawing.Point(80, 44);
+            this.descTxtBox.Location = new System.Drawing.Point(90, 44);
             this.descTxtBox.Name = "descTxtBox";
             this.descTxtBox.Size = new System.Drawing.Size(166, 20);
             this.descTxtBox.TabIndex = 3;
@@ -85,7 +85,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(-4, 44);
+            this.label2.Location = new System.Drawing.Point(6, 47);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 13);
             this.label2.TabIndex = 4;
@@ -104,7 +104,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(29, 77);
+            this.label3.Location = new System.Drawing.Point(39, 77);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(45, 13);
             this.label3.TabIndex = 7;
@@ -117,7 +117,7 @@
             "Kész",
             "Elkezdve",
             "Nincs Elkezdve"});
-            this.statusList.Location = new System.Drawing.Point(80, 74);
+            this.statusList.Location = new System.Drawing.Point(90, 74);
             this.statusList.Name = "statusList";
             this.statusList.Size = new System.Drawing.Size(166, 21);
             this.statusList.TabIndex = 8;
@@ -146,22 +146,27 @@
             // 
             this.taskName.HeaderText = "Feladat";
             this.taskName.Name = "taskName";
+            this.taskName.ReadOnly = true;
+            this.taskName.Width = 143;
             // 
             // description
             // 
             this.description.HeaderText = "Leírás";
             this.description.Name = "description";
+            this.description.ReadOnly = true;
+            this.description.Width = 150;
             // 
             // status
             // 
             this.status.HeaderText = "Státusz";
             this.status.Name = "status";
+            this.status.ReadOnly = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(665, 321);
+            this.ClientSize = new System.Drawing.Size(697, 380);
             this.Controls.Add(this.editBtn);
             this.Controls.Add(this.deleteBtn);
             this.Controls.Add(this.statusList);
