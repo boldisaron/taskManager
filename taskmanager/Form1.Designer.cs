@@ -30,6 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tasksGrid = new System.Windows.Forms.DataGridView();
+            this.taskName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.description = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.taskNameTxtBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.descTxtBox = new System.Windows.Forms.TextBox();
@@ -39,9 +42,6 @@
             this.statusList = new System.Windows.Forms.ComboBox();
             this.deleteBtn = new System.Windows.Forms.Button();
             this.editBtn = new System.Windows.Forms.Button();
-            this.taskName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.description = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.tasksGrid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,6 +58,26 @@
             this.tasksGrid.Size = new System.Drawing.Size(436, 370);
             this.tasksGrid.TabIndex = 0;
             this.tasksGrid.SelectionChanged += new System.EventHandler(this.DataGridView_SelectionChanged);
+            // 
+            // taskName
+            // 
+            this.taskName.HeaderText = "Feladat";
+            this.taskName.Name = "taskName";
+            this.taskName.ReadOnly = true;
+            this.taskName.Width = 143;
+            // 
+            // description
+            // 
+            this.description.HeaderText = "Leírás";
+            this.description.Name = "description";
+            this.description.ReadOnly = true;
+            this.description.Width = 150;
+            // 
+            // status
+            // 
+            this.status.HeaderText = "Státusz";
+            this.status.Name = "status";
+            this.status.ReadOnly = true;
             // 
             // taskNameTxtBox
             // 
@@ -141,26 +161,6 @@
             this.editBtn.Text = "Szerkesztés";
             this.editBtn.UseVisualStyleBackColor = true;
             this.editBtn.Click += new System.EventHandler(this.editBtn_Click);
-            // 
-            // taskName
-            // 
-            this.taskName.HeaderText = "Feladat";
-            this.taskName.Name = "taskName";
-            this.taskName.ReadOnly = true;
-            this.taskName.Width = 143;
-            // 
-            // description
-            // 
-            this.description.HeaderText = "Leírás";
-            this.description.Name = "description";
-            this.description.ReadOnly = true;
-            this.description.Width = 150;
-            // 
-            // status
-            // 
-            this.status.HeaderText = "Státusz";
-            this.status.Name = "status";
-            this.status.ReadOnly = true;
             // 
             // Form1
             // 

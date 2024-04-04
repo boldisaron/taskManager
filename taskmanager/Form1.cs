@@ -48,10 +48,13 @@ namespace taskmanager
 
         private void editBtn_Click(object sender, EventArgs e)
         {
-            int selectedIndex = tasksGrid.SelectedRows[0].Index;
-            tasksGrid.Rows[selectedIndex].Cells["taskName"].Value = taskNameTxtBox.Text;
-            tasksGrid.Rows[selectedIndex].Cells["description"].Value = descTxtBox.Text;
-            tasksGrid.Rows[selectedIndex].Cells["status"].Value = statusList.Text;
+            if (tasksGrid.SelectedRows.Count > 0)
+            {
+                int selectedIndex = tasksGrid.SelectedRows[0].Index;
+                tasksGrid.Rows[selectedIndex].Cells["taskName"].Value = taskNameTxtBox.Text;
+                tasksGrid.Rows[selectedIndex].Cells["description"].Value = descTxtBox.Text;
+                tasksGrid.Rows[selectedIndex].Cells["status"].Value = statusList.Text;
+            }
         }
 
         private void deleteBtn_Click(object sender, EventArgs e)
@@ -63,7 +66,6 @@ namespace taskmanager
                 {
                     int selectedIndex = tasksGrid.SelectedRows[0].Index;
                     tasksGrid.Rows.RemoveAt(selectedIndex);
-
                 }
             }   
         }
